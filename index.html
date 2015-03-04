@@ -20,7 +20,7 @@ $(document).ready(function inicio(){
   var obs=$("#obs").val(); 
     $.ajax({
     type:"POST",
-    url:"envio.php",
+    url:"http://itslmoviles.260mb.net/envio.php",
     data:"nombre="+nom+"&apellidoP="+app+"&apellidoM="+apm+"&telefono="+tel+"&email="+email+"&direc="+dir+"&observ="+obs,
     success: recepcion
     });
